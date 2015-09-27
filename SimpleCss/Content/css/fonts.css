@@ -1,0 +1,60 @@
+﻿@font-face {
+	font-family: 'icomoon';
+	src: url('/Content/fonts/icomoon/icomoon.eot?-kuqlp');
+	src: url('/Content/fonts/icomoon/icomoon.eot?#iefix-kuqlp') format('embedded-opentype'), 
+		url('/Content/fonts/icomoon/icomoon.ttf?-kuqlp') format('truetype'), 
+		url('/Content/fonts/icomoon/icomoon.woff?-kuqlp') format('woff'), 
+		url('/Content/fonts/icomoon/icomoon.svg?-kuqlp#icomoon') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: "Source Sans Pro";
+	src: url("/Content/fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular.eot");
+	src: url("/Content/fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular.eot?#iefix") format("embedded-opentype"), 
+		url("/Content/fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular.woff") format("woff"), 
+		url("/Content/fonts/SourceSansPro/SourceSansProRegular/SourceSansProRegular.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: "Source Sans Pro Bold";
+	src: url("/Content/fonts/SourceSansPro/SourceSansProBold/SourceSansProBold.eot");
+	src: url("/Content/fonts/SourceSansPro/SourceSansProBold/SourceSansProBold.eot?#iefix") format("embedded-opentype"), 
+		url("/Content/fonts/SourceSansPro/SourceSansProBold/SourceSansProBold.woff") format("woff"), 
+		url("/Content/fonts/SourceSansPro/SourceSansProBold/SourceSansProBold.ttf") format("truetype");
+	font-style: normal;
+	font-weight: normal;
+}
+
+@font-face {
+	font-family: 'PTSans';
+	src: url("/Content/fonts/PTSans/PTSansBold/PTSansBold.eot");
+	src: url("/Content/fonts/PTSans/PTSansBold/PTSansBold.eot?#iefix") format("embedded-opentype"), 
+		url("/Content/fonts/PTSans/PTSansBold/PTSansBold.woff") format("woff"), 
+		url("/Content/fonts/PTSans/PTSansBold/PTSansBold.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Lato';
+	src: url("/Content/fonts/Lato/LatoRegular/LatoRegular.eot");
+	src: url("/Content/fonts/Lato/LatoRegular/LatoRegular.eot?#iefix") format("embedded-opentype"), 
+		url("/Content/fonts/Lato/LatoRegular/LatoRegular.woff") format("woff"), 
+		url("/Content/fonts/Lato/LatoRegular/LatoRegular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Myriad Pro';
+	src: url("/Content/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot");
+	src: url("/Content/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.eot?#iefix") format("embedded-opentype"), 
+		url("/Content/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.woff") format("woff"), 
+		url("/Content/fonts/MyriadPro/MyriadProRegular/MyriadProRegular.ttf") format("truetype");
+	font-weight: normal;
+	font-style: normal;
+}
