@@ -1,0 +1,207 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{01704AFF-D130-44B4-8F9F-EF3E6D3BF817}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>CssBasics</RootNamespace>
+    <AssemblyName>CssBasics</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\css\banner.css" />
+    <Content Include="Content\css\fonts.css" />
+    <Content Include="Content\css\features.css" />
+    <Content Include="Content\css\footer.css" />
+    <Content Include="Content\css\grid.css" />
+    <Content Include="Content\css\header.css" />
+    <Content Include="Content\css\layout.css" />
+    <Content Include="Content\css\portfolio.css" />
+    <Content Include="Content\css\profiles.css" />
+    <Content Include="Content\css\reset.css" />
+    <Content Include="Content\css\social-media.css" />
+    <Content Include="Content\css\title.css" />
+    <Content Include="Content\fonts\icomoon\icomoon.svg" />
+    <Content Include="Content\img\arrow-down.png" />
+    <Content Include="Content\img\arrow-left.png" />
+    <Content Include="Content\img\arrow-right.png" />
+    <Content Include="Content\img\display.png" />
+    <Content Include="Content\img\facebook.png" />
+    <Content Include="Content\img\flask.png" />
+    <Content Include="Content\img\gears.png" />
+    <Content Include="Content\img\googlePlus.png" />
+    <Content Include="Content\img\letter.png" />
+    <Content Include="Content\img\linkedIn.png" />
+    <Content Include="Content\img\main-image.png" />
+    <Content Include="Content\img\megaphone.png" />
+    <Content Include="Content\img\orange-1.png" />
+    <Content Include="Content\img\orange-2.png" />
+    <Content Include="Content\img\orange-3.png" />
+    <Content Include="Content\img\orange-4.png" />
+    <Content Include="Content\img\orange-arrow-left.png" />
+    <Content Include="Content\img\orange-arrow-right.png" />
+    <Content Include="Content\img\orange.png" />
+    <Content Include="Content\img\photo-1.png" />
+    <Content Include="Content\img\photo-2.png" />
+    <Content Include="Content\img\photo-3.png" />
+    <Content Include="Content\img\photo-4.png" />
+    <Content Include="Content\img\selected-menu-item.png" />
+    <Content Include="Content\img\twitter.png" />
+    <Content Include="Index.html" />
+    <Content Include="Web.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Content\fonts\icomoon\icomoon.eot" />
+    <Content Include="Content\fonts\icomoon\icomoon.ttf" />
+    <Content Include="Content\fonts\icomoon\icomoon.woff" />
+    <Content Include="Content\fonts\Lato\LatoBoldItalic\LatoBoldItalic.eot" />
+    <Content Include="Content\fonts\Lato\LatoBoldItalic\LatoBoldItalic.ttf" />
+    <Content Include="Content\fonts\Lato\LatoBoldItalic\LatoBoldItalic.woff" />
+    <Content Include="Content\fonts\Lato\LatoBold\LatoBold.eot" />
+    <Content Include="Content\fonts\Lato\LatoBold\LatoBold.ttf" />
+    <Content Include="Content\fonts\Lato\LatoBold\LatoBold.woff" />
+    <Content Include="Content\fonts\Lato\LatoItalic\LatoItalic.eot" />
+    <Content Include="Content\fonts\Lato\LatoItalic\LatoItalic.ttf" />
+    <Content Include="Content\fonts\Lato\LatoItalic\LatoItalic.woff" />
+    <Content Include="Content\fonts\Lato\LatoLightItalic\LatoLightItalic.eot" />
+    <Content Include="Content\fonts\Lato\LatoLightItalic\LatoLightItalic.ttf" />
+    <Content Include="Content\fonts\Lato\LatoLightItalic\LatoLightItalic.woff" />
+    <Content Include="Content\fonts\Lato\LatoLight\LatoLight.eot" />
+    <Content Include="Content\fonts\Lato\LatoLight\LatoLight.ttf" />
+    <Content Include="Content\fonts\Lato\LatoLight\LatoLight.woff" />
+    <Content Include="Content\fonts\Lato\LatoRegular\LatoRegular.eot" />
+    <Content Include="Content\fonts\Lato\LatoRegular\LatoRegular.ttf" />
+    <Content Include="Content\fonts\Lato\LatoRegular\LatoRegular.woff" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProBoldItalic\MyriadProBoldItalic.eot" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProBoldItalic\MyriadProBoldItalic.otf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProBoldItalic\MyriadProBoldItalic.ttf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProBoldItalic\MyriadProBoldItalic.woff" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProBold\MyriadProBold.eot" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProBold\MyriadProBold.otf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProBold\MyriadProBold.ttf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProBold\MyriadProBold.woff" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProItalic\MyriadProItalic.eot" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProItalic\MyriadProItalic.otf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProItalic\MyriadProItalic.ttf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProItalic\MyriadProItalic.woff" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProRegular\MyriadProRegular.eot" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProRegular\MyriadProRegular.otf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProRegular\MyriadProRegular.ttf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProRegular\MyriadProRegular.woff" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProSemiBoldItalic\MyriadProSemiBoldItalic.eot" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProSemiBoldItalic\MyriadProSemiBoldItalic.otf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProSemiBoldItalic\MyriadProSemiBoldItalic.ttf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProSemiBoldItalic\MyriadProSemiBoldItalic.woff" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProSemiBold\MyriadProSemiBold.eot" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProSemiBold\MyriadProSemiBold.otf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProSemiBold\MyriadProSemiBold.ttf" />
+    <Content Include="Content\fonts\MyriadPro\MyriadProSemiBold\MyriadProSemiBold.woff" />
+    <Content Include="Content\fonts\PTSans\PTSansBold\PTSansBold.eot" />
+    <Content Include="Content\fonts\PTSans\PTSansBold\PTSansBold.ttf" />
+    <Content Include="Content\fonts\PTSans\PTSansBold\PTSansBold.woff" />
+    <Content Include="Content\fonts\PTSans\PTSansItalic\PTSansItalic.eot" />
+    <Content Include="Content\fonts\PTSans\PTSansItalic\PTSansItalic.ttf" />
+    <Content Include="Content\fonts\PTSans\PTSansItalic\PTSansItalic.woff" />
+    <Content Include="Content\fonts\PTSans\PTSansRegular\PTSansRegular.eot" />
+    <Content Include="Content\fonts\PTSans\PTSansRegular\PTSansRegular.ttf" />
+    <Content Include="Content\fonts\PTSans\PTSansRegular\PTSansRegular.woff" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProBold\SourceSansProBold.eot" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProBold\SourceSansProBold.ttf" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProBold\SourceSansProBold.woff" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProLight\SourceSansProLight.eot" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProLight\SourceSansProLight.ttf" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProLight\SourceSansProLight.woff" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProRegular\SourceSansProRegular.eot" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProRegular\SourceSansProRegular.ttf" />
+    <Content Include="Content\fonts\SourceSansPro\SourceSansProRegular\SourceSansProRegular.woff" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>0</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost:1221/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>
